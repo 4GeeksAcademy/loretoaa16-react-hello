@@ -2,6 +2,9 @@ import React from "react"; // 1. Import React
 import rigoImage from "../../img/rigo-baby.jpg"; //include images into your bundle
 import NavBar from "./Navbar.jsx"; // component with export default
 import { Footer } from "./Footer.jsx"; //component with export const
+import { Jumbotron } from "./Jumbotron.jsx";
+import { ButtonCallToAction } from "./ButtonCallToAction.jsx";
+
 // 2. Create your first component with PascalCase name
 const Home = () => {
 	// 3. Code JS
@@ -10,14 +13,15 @@ const Home = () => {
 	return (
 		<div className="text-center">
 			<NavBar/>
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
+			<h1 className="text-center mt-5">{'Intro React'}</h1>
+			<Jumbotron/>
+			{/*<p>
 				<img src={rigoImage} />
 			</p>
 			<a href="#" className="btn btn-success">
 				If you see this green button... bootstrap is working...
-			</a>
-		<Footer/>
+			</a>*/}
+			<Footer/>
 		</div>
 	);
 };
