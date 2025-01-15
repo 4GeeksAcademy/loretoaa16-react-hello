@@ -2,7 +2,7 @@ import React from "react";
 
 export const Alert = () => {
     const message = {
-        text: 'A simple message',
+        text: 'A simple message you should see!',
         style: 'success',
         visible: true
     }

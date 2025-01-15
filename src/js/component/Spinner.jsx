@@ -1,10 +1,6 @@
 import React from "react";
 
 export const Spinner = () => {
-    const spinner = {
-        style: 'danger',
-        visible: false
-    }
 
     return (
         <div className="container">

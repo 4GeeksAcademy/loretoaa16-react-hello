@@ -13,7 +13,7 @@ const Home = () => {
 	return (
 		<div className="text-center">
 			<NavBar/>
-			<h1 className="text-center mt-5">{'Intro to Java'}</h1>
+			<h1 className="text-center mt-5">{'Intro Java'}</h1>
 			<Jumbotron/>
 			<Alert/>
 			<Spinner/>
