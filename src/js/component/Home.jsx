@@ -3,8 +3,8 @@ import rigoImage from "../../img/rigo-baby.jpg"; //include images into your bund
 import NavBar from "./Navbar.jsx"; // component with export default
 import { Footer } from "./Footer.jsx"; //component with export const
 import { Jumbotron } from "./Jumbotron.jsx";
-import { ButtonCallToAction } from "./ButtonCallToAction.jsx";
-
+import { Alert } from "./Alert.jsx";
+import { Spinner } from "./Spinner.jsx";
 // 2. Create your first component with PascalCase name
 const Home = () => {
 	// 3. Code JS
@@ -13,8 +13,10 @@ const Home = () => {
 	return (
 		<div className="text-center">
 			<NavBar/>
-			<h1 className="text-center mt-5">{'Intro React'}</h1>
+			<h1 className="text-center mt-5">{'Intro to Java'}</h1>
 			<Jumbotron/>
+			<Alert/>
+			<Spinner/>
 			{/*<p>
 				<img src={rigoImage} />
 			</p>
